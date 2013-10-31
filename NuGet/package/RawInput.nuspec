@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RawInput</id>
+    <version>1.0.0</version>
+    <authors>pavelp</authors>
+    <owners>pavelp</owners>
+    <projectUrl>https://bitbucket.org/pashapash/rawinput/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>C# wrapper for GetRawInputDeviceList</description>
+    <copyright>Copyright 2013</copyright>
+    <tags>C# RawInput GetRawInputDeviceList GetRawInputDeviceInfo</tags>
+  </metadata>
+</package>
