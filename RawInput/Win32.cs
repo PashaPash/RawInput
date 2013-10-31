@@ -53,6 +53,13 @@ public static class Win32
             public uint NumberOfFunctionKeys;
             public uint NumberOfIndicators;
             public uint NumberOfKeysTotal;
+            public bool IsSingleUSBKeboard
+            {
+                get
+                {
+                    return this.Type == 81; // http://msdn.microsoft.com/en-us/library/windows/desktop/ms724336%28v=vs.85%29.aspx
+                }
+            }
         }
  
         public struct DeviceInfoHID
