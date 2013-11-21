@@ -2,3 +2,5 @@ syntax: glob
 bin
 obj
 *.nupkg
+NuGet/package/lib/net40/RawInput.dll
+*.suo

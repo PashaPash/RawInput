@@ -2,9 +2,9 @@
 <package >
   <metadata>
     <id>RawInput</id>
-    <version>1.0.0</version>
-    <authors>pavelp</authors>
-    <owners>pavelp</owners>
+    <version>1.0.1</version>
+    <authors>Pashapash</authors>
+    <owners>Pashapash</owners>
     <projectUrl>https://bitbucket.org/pashapash/rawinput/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>C# wrapper for GetRawInputDeviceList</description>
