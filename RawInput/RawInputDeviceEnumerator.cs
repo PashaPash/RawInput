@@ -66,11 +66,11 @@ namespace RawInput
             Marshal.FreeHGlobal(ptrDeviceList);
         }
 
-        public bool IsSingleUSBKeyboardPresent
+        public int UsbKeyboardsCount
         {
             get
             {
-                return this.Devices.Any(d => d.DeviceType == Win32.RawInputDeviceType.Keyboard && d.DeviceInfo.KeyboardInfo.IsSingleUSBKeboard);
+                return this.Devices.Count(d => d.DeviceType == Win32.RawInputDeviceType.Keyboard && d.DeviceInfo.KeyboardInfo.IsUSBKeboard);
             }
         }
 

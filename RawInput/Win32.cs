@@ -49,7 +49,7 @@ public static class Win32
             public uint NumberOfFunctionKeys;
             public uint NumberOfIndicators;
             public uint NumberOfKeysTotal;
-            public bool IsSingleUSBKeboard
+            public bool IsUSBKeboard
             {
                 get
                 {

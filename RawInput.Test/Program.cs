@@ -12,7 +12,7 @@ namespace RawInput.Test
             // enumerates raw input devices of Keyboard type
             foreach (var rawInputDevice in
                 rawDeviceEnumerator.Devices.Where(
-                d => d.DeviceType == Win32.RawInputDeviceType.Keyboard && d.DeviceInfo.KeyboardInfo.IsSingleUSBKeboard))
+                d => d.DeviceType == Win32.RawInputDeviceType.Keyboard && d.DeviceInfo.KeyboardInfo.IsUSBKeboard))
             {
                 Console.WriteLine(
                     "{0}:\n\tName = {1}\n\tHandle: = {2}\n",
@@ -21,7 +21,7 @@ namespace RawInput.Test
                     rawInputDevice.DeviceHandle);
             }
 
-            Console.WriteLine("Is Single USB Keyboard Present: " + rawDeviceEnumerator.IsSingleUSBKeyboardPresent);
+            Console.WriteLine("Usb Keyboards Count: " + rawDeviceEnumerator.UsbKeyboardsCount);
         }
     }
 }
